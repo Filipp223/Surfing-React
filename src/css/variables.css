@@ -1,0 +1,16 @@
+
+.site {
+    --text-color1:#1D90B5;
+    --text-color2:#FFFFFF;
+    --bg-color:#FFFFFF;
+    --card-color2:#106680;
+    --card-color1:#405DA5;
+}
+
+.theme__toggler:checked ~ .site {
+    --text-color1:#4A5F66;
+    --text-color2:#FFFFFF;
+    --bg-color:#2B393F;
+    --card-color1:#2F4E57;
+    --card-color2:#3A435B;
+}

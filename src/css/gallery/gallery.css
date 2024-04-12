@@ -1,0 +1,22 @@
+.gallery {
+}
+
+.gallery__content {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(3, auto);
+    gap:5px;
+}
+
+
+@media (max-width:1120px){
+    .gallery__content {
+        grid-template-columns:repeat(1, minmax(270px, min-content)); 
+        width: fit-content;
+        gap:5px;
+        margin: 0 auto;
+    }
+    .gallery__item {
+        width: 100%;
+    }
+}
