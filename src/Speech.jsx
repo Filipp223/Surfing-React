@@ -1,3 +1,4 @@
+import "./css/speech/speech.css";
 
 function Speech() {
     return (

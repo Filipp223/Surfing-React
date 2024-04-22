@@ -7,6 +7,7 @@ import images1p6 from "./images/s1p6.png";
 import images1p7 from "./images/s1p7.png";
 import images1p8 from "./images/s1p8.png";
 import images1p9 from "./images/s1p9.png";
+import "./css/gallery/gallery.css";
 
 function Gallery() {
     return (

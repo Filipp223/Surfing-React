@@ -4,6 +4,7 @@ import images2p3 from "./images/s2p3.png";
 import images2p4 from "./images/s2p4.png";
 import images2p5 from "./images/s2p5.png";
 import images2p6 from "./images/s2p6.png";
+import "./css/cards/cards.css";
 
 function Cards() {
     return (
